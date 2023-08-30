@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/avatar.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/avatar.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -15,7 +15,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon"
+          class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-icon css-dev-only-do-not-override-17a39f8"
           style="background-color: rgb(114, 101, 230);"
         >
           <span
@@ -61,7 +61,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/basic.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/basic.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -76,7 +76,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-square ant-avatar-image"
+          class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
           style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
         >
           <img
@@ -111,7 +111,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/compose.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/compose.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -129,7 +129,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-square ant-avatar-image"
+          class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
           style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
         >
           <img
@@ -152,7 +152,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-square ant-avatar-image"
+          class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
           style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
         >
           <img
@@ -217,7 +217,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-square ant-avatar-image"
+          class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
           style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
         >
           <img
@@ -295,7 +295,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/custom.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/custom.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -334,7 +334,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/defaultChecked.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/defaultChecked.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -349,7 +349,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-square ant-avatar-image"
+          class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
           style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
         >
           <img
@@ -379,7 +379,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/description.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/description.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -394,7 +394,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-square ant-avatar-image"
+          class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
           style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
         >
           <img
@@ -443,7 +443,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-square ant-avatar-image"
+          class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
           style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
         >
           <img
@@ -471,7 +471,8 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           class="ant-pro-checkcard-description"
         >
           <div
-            class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line"
+            class="ant-typography ant-typography-ellipsis ant-typography-ellipsis-multiple-line css-dev-only-do-not-override-17a39f8"
+            style="-webkit-line-clamp: 2;"
           >
             选择一个由流程编排提供的典型用户案例，可以从中学习到流程编排很多设计理念。
           </div>
@@ -482,7 +483,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/disabled.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/disabled.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -501,7 +502,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           class="ant-pro-checkcard-avatar"
         >
           <span
-            class="ant-avatar ant-avatar-square ant-avatar-image"
+            class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
             style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
           >
             <img
@@ -543,7 +544,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           class="ant-pro-checkcard-avatar"
         >
           <span
-            class="ant-avatar ant-avatar-square ant-avatar-image"
+            class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
             style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
           >
             <img
@@ -585,7 +586,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           class="ant-pro-checkcard-avatar"
         >
           <span
-            class="ant-avatar ant-avatar-square ant-avatar-image"
+            class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
             style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
           >
             <img
@@ -690,7 +691,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/extra.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/extra.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -705,7 +706,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         class="ant-pro-checkcard-avatar"
       >
         <span
-          class="ant-avatar ant-avatar-square ant-avatar-image"
+          class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
           style="width: 48px; height: 48px; line-height: 48px; font-size: 18px;"
         >
           <img
@@ -765,23 +766,23 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/form.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/form.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <div>
     <form
-      class="ant-form ant-form-vertical"
+      class="ant-form ant-form-vertical css-dev-only-do-not-override-17a39f8"
     >
       <div
-        class="ant-form-item"
+        class="ant-form-item css-dev-only-do-not-override-17a39f8"
       >
         <div
-          class="ant-row ant-form-item-row"
+          class="ant-row ant-form-item-row css-dev-only-do-not-override-17a39f8"
         >
           <div
-            class="ant-col ant-form-item-label"
+            class="ant-col ant-form-item-label css-dev-only-do-not-override-17a39f8"
           >
             <label
               class=""
@@ -792,7 +793,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </label>
           </div>
           <div
-            class="ant-col ant-form-item-control"
+            class="ant-col ant-form-item-control css-dev-only-do-not-override-17a39f8"
           >
             <div
               class="ant-form-item-control-input"
@@ -815,7 +816,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
                         class="ant-pro-checkcard-avatar"
                       >
                         <span
-                          class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image"
+                          class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-17a39f8"
                         >
                           <img
                             src="https://gw.alipayobjects.com/zos/bmw-prod/2dd637c7-5f50-4d89-a819-33b3d6da73b6.svg"
@@ -856,7 +857,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
                         class="ant-pro-checkcard-avatar"
                       >
                         <span
-                          class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image"
+                          class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-17a39f8"
                         >
                           <img
                             src="https://gw.alipayobjects.com/zos/bmw-prod/6935b98e-96f6-464f-9d4f-215b917c6548.svg"
@@ -897,7 +898,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
                         class="ant-pro-checkcard-avatar"
                       >
                         <span
-                          class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image"
+                          class="ant-avatar ant-avatar-lg ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-17a39f8"
                         >
                           <img
                             src="https://gw.alipayobjects.com/zos/bmw-prod/d12c3392-61fa-489e-a82c-71de0f888a8e.svg"
@@ -935,13 +936,13 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </div>
       </div>
       <div
-        class="ant-form-item"
+        class="ant-form-item css-dev-only-do-not-override-17a39f8"
       >
         <div
-          class="ant-row ant-form-item-row"
+          class="ant-row ant-form-item-row css-dev-only-do-not-override-17a39f8"
         >
           <div
-            class="ant-col ant-form-item-control"
+            class="ant-col ant-form-item-control css-dev-only-do-not-override-17a39f8"
           >
             <div
               class="ant-form-item-control-input"
@@ -950,7 +951,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
                 class="ant-form-item-control-input-content"
               >
                 <button
-                  class="ant-btn ant-btn-primary"
+                  class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-primary"
                   type="submit"
                 >
                   <span>
@@ -967,7 +968,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/grid.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/grid.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -977,10 +978,10 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
     style="width: 100%;"
   >
     <div
-      class="ant-row"
+      class="ant-row css-dev-only-do-not-override-17a39f8"
     >
       <div
-        class="ant-col ant-col-8"
+        class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
       >
         <div
           class="ant-pro-checkcard ant-pro-checkcard-sm ant-pro-checkcard-bordered"
@@ -1014,7 +1015,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </div>
       </div>
       <div
-        class="ant-col ant-col-8"
+        class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
       >
         <div
           class="ant-pro-checkcard ant-pro-checkcard-sm ant-pro-checkcard-bordered"
@@ -1048,7 +1049,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </div>
       </div>
       <div
-        class="ant-col ant-col-8"
+        class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
       >
         <div
           class="ant-pro-checkcard ant-pro-checkcard-sm ant-pro-checkcard-bordered"
@@ -1086,7 +1087,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/group.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/group.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -1184,11 +1185,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           class="ant-pro-checkcard-loading-content"
         >
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-22"
+              class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1197,11 +1198,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-8"
+              class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1209,7 +1210,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-14"
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1218,11 +1219,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-6"
+              class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1230,7 +1231,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-16"
+              class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1239,11 +1240,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-13"
+              class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1251,7 +1252,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-9"
+              class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1260,11 +1261,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-4"
+              class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1272,7 +1273,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-3"
+              class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1280,120 +1281,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-14"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="ant-pro-checkcard ant-pro-checkcard-loading ant-pro-checkcard-sm ant-pro-checkcard-bordered"
-      >
-        <div
-          class="ant-pro-checkcard-loading-content"
-        >
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-22"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-8"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-14"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-6"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-16"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-13"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-9"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-4"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-3"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-14"
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1410,11 +1298,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           class="ant-pro-checkcard-loading-content"
         >
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-22"
+              class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1423,11 +1311,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-8"
+              class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1435,7 +1323,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-14"
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1444,11 +1332,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-6"
+              class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1456,7 +1344,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-16"
+              class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1465,11 +1353,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-13"
+              class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1477,7 +1365,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-9"
+              class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1486,11 +1374,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-4"
+              class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1498,7 +1386,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-3"
+              class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1506,7 +1394,120 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-14"
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-pro-checkcard ant-pro-checkcard-loading ant-pro-checkcard-sm ant-pro-checkcard-bordered"
+      >
+        <div
+          class="ant-pro-checkcard-loading-content"
+        >
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1609,11 +1610,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           class="ant-pro-checkcard-loading-content"
         >
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-22"
+              class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1622,11 +1623,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-8"
+              class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1634,7 +1635,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-14"
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1643,11 +1644,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-6"
+              class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1655,7 +1656,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-16"
+              class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1664,11 +1665,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-13"
+              class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1676,7 +1677,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-9"
+              class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1685,11 +1686,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-4"
+              class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1697,7 +1698,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-3"
+              class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1705,120 +1706,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-14"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-      <div
-        class="ant-pro-checkcard ant-pro-checkcard-loading ant-pro-checkcard-bordered"
-      >
-        <div
-          class="ant-pro-checkcard-loading-content"
-        >
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-22"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-8"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-14"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-6"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-16"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-13"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-9"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-          </div>
-          <div
-            class="ant-row"
-            style="margin-left: -4px; margin-right: -4px;"
-          >
-            <div
-              class="ant-col ant-col-4"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-3"
-              style="padding-left: 4px; padding-right: 4px;"
-            >
-              <div
-                class="ant-pro-checkcard-loading-block"
-              />
-            </div>
-            <div
-              class="ant-col ant-col-14"
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1835,11 +1723,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           class="ant-pro-checkcard-loading-content"
         >
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-22"
+              class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1848,11 +1736,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-8"
+              class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1860,7 +1748,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-14"
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1869,11 +1757,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-6"
+              class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1881,7 +1769,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-16"
+              class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1890,11 +1778,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-13"
+              class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1902,7 +1790,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-9"
+              class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1911,11 +1799,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             </div>
           </div>
           <div
-            class="ant-row"
+            class="ant-row css-dev-only-do-not-override-17a39f8"
             style="margin-left: -4px; margin-right: -4px;"
           >
             <div
-              class="ant-col ant-col-4"
+              class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1923,7 +1811,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-3"
+              class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1931,7 +1819,120 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
               />
             </div>
             <div
-              class="ant-col ant-col-14"
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-pro-checkcard ant-pro-checkcard-loading ant-pro-checkcard-bordered"
+      >
+        <div
+          class="ant-pro-checkcard-loading-content"
+        >
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+          </div>
+          <div
+            class="ant-row css-dev-only-do-not-override-17a39f8"
+            style="margin-left: -4px; margin-right: -4px;"
+          >
+            <div
+              class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
+              style="padding-left: 4px; padding-right: 4px;"
+            >
+              <div
+                class="ant-pro-checkcard-loading-block"
+              />
+            </div>
+            <div
+              class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
               style="padding-left: 4px; padding-right: 4px;"
             >
               <div
@@ -1946,7 +1947,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/image.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/image.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -1979,7 +1980,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/list.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/list.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -2000,7 +2001,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             class="ant-pro-checkcard-avatar"
           >
             <span
-              class="ant-avatar ant-avatar-square ant-avatar-image"
+              class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
               style="width: 32px; height: 32px; line-height: 32px; font-size: 18px;"
             >
               <img
@@ -2042,7 +2043,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             class="ant-pro-checkcard-avatar"
           >
             <span
-              class="ant-avatar ant-avatar-square ant-avatar-image"
+              class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
               style="width: 32px; height: 32px; line-height: 32px; font-size: 18px;"
             >
               <img
@@ -2084,7 +2085,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             class="ant-pro-checkcard-avatar"
           >
             <span
-              class="ant-avatar ant-avatar-square ant-avatar-image"
+              class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
               style="width: 32px; height: 32px; line-height: 32px; font-size: 18px;"
             >
               <img
@@ -2126,7 +2127,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             class="ant-pro-checkcard-avatar"
           >
             <span
-              class="ant-avatar ant-avatar-square ant-avatar-image"
+              class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
               style="width: 32px; height: 32px; line-height: 32px; font-size: 18px;"
             >
               <img
@@ -2168,7 +2169,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             class="ant-pro-checkcard-avatar"
           >
             <span
-              class="ant-avatar ant-avatar-square ant-avatar-image"
+              class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
               style="width: 32px; height: 32px; line-height: 32px; font-size: 18px;"
             >
               <img
@@ -2210,7 +2211,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
             class="ant-pro-checkcard-avatar"
           >
             <span
-              class="ant-avatar ant-avatar-square ant-avatar-image"
+              class="ant-avatar ant-avatar-square ant-avatar-image css-dev-only-do-not-override-17a39f8"
               style="width: 32px; height: 32px; line-height: 32px; font-size: 18px;"
             >
               <img
@@ -2247,7 +2248,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/loading.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/loading.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -2259,11 +2260,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
       class="ant-pro-checkcard-loading-content"
     >
       <div
-        class="ant-row"
+        class="ant-row css-dev-only-do-not-override-17a39f8"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-22"
+          class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2272,11 +2273,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </div>
       </div>
       <div
-        class="ant-row"
+        class="ant-row css-dev-only-do-not-override-17a39f8"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-8"
+          class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2284,7 +2285,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           />
         </div>
         <div
-          class="ant-col ant-col-14"
+          class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2293,11 +2294,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </div>
       </div>
       <div
-        class="ant-row"
+        class="ant-row css-dev-only-do-not-override-17a39f8"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-6"
+          class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2305,7 +2306,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           />
         </div>
         <div
-          class="ant-col ant-col-16"
+          class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2314,11 +2315,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </div>
       </div>
       <div
-        class="ant-row"
+        class="ant-row css-dev-only-do-not-override-17a39f8"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-13"
+          class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2326,7 +2327,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           />
         </div>
         <div
-          class="ant-col ant-col-9"
+          class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2335,11 +2336,11 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </div>
       </div>
       <div
-        class="ant-row"
+        class="ant-row css-dev-only-do-not-override-17a39f8"
         style="margin-left: -4px; margin-right: -4px;"
       >
         <div
-          class="ant-col ant-col-4"
+          class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2347,7 +2348,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           />
         </div>
         <div
-          class="ant-col ant-col-3"
+          class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2355,7 +2356,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
           />
         </div>
         <div
-          class="ant-col ant-col-14"
+          class="ant-col ant-col-14 css-dev-only-do-not-override-17a39f8"
           style="padding-left: 4px; padding-right: 4px;"
         >
           <div
@@ -2368,7 +2369,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/multiple.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/multiple.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -2440,7 +2441,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/single.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/single.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -2542,7 +2543,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/size.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/size.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -2551,10 +2552,10 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
     style="margin-block-end: 16px;"
   >
     <div
-      class="ant-radio-group ant-radio-group-outline"
+      class="ant-radio-group ant-radio-group-outline css-dev-only-do-not-override-17a39f8"
     >
       <label
-        class="ant-radio-button-wrapper"
+        class="ant-radio-button-wrapper css-dev-only-do-not-override-17a39f8"
       >
         <span
           class="ant-radio-button"
@@ -2573,7 +2574,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked"
+        class="ant-radio-button-wrapper ant-radio-button-wrapper-checked css-dev-only-do-not-override-17a39f8"
       >
         <span
           class="ant-radio-button ant-radio-button-checked"
@@ -2593,7 +2594,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
         </span>
       </label>
       <label
-        class="ant-radio-button-wrapper"
+        class="ant-radio-button-wrapper css-dev-only-do-not-override-17a39f8"
       >
         <span
           class="ant-radio-button"
@@ -2646,7 +2647,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/title.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/CheckCard/demos/title.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -2697,7 +2698,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
                   示例
                 </span>
                 <span
-                  class="ant-tag ant-tag-blue"
+                  class="ant-tag ant-tag-blue css-dev-only-do-not-override-17a39f8"
                 >
                   blue
                 </span>
@@ -2746,7 +2747,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/CheckCard/demos/
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/basic.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/basic.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -2762,7 +2763,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
         class="ant-pro-card-title"
       >
         <div
-          class="ant-space ant-space-horizontal ant-space-align-center"
+          class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-center"
         >
           <div
             class="ant-space-item"
@@ -2838,7 +2839,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
               class="ant-pro-card-statistic-content"
             >
               <div
-                class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
               >
                 <div
                   class="ant-statistic-content"
@@ -2863,7 +2864,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                 class="ant-pro-card-statistic-description"
               >
                 <div
-                  class="ant-space ant-space-horizontal ant-space-align-center"
+                  class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-center"
                 >
                   <div
                     class="ant-space-item"
@@ -2879,7 +2880,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                           class="ant-pro-card-statistic-content"
                         >
                           <div
-                            class="ant-statistic ant-pro-card-statistic-layout-inline"
+                            class="ant-statistic ant-pro-card-statistic-layout-inline css-dev-only-do-not-override-17a39f8"
                           >
                             <div
                               class="ant-statistic-title"
@@ -2913,7 +2914,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                           class="ant-pro-card-statistic-content"
                         >
                           <div
-                            class="ant-statistic ant-pro-card-statistic-layout-inline"
+                            class="ant-statistic ant-pro-card-statistic-layout-inline css-dev-only-do-not-override-17a39f8"
                           >
                             <div
                               class="ant-statistic-title"
@@ -2954,7 +2955,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/chart.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/chart.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -3050,7 +3051,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/fomula.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/fomula.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -3084,7 +3085,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3139,7 +3140,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3194,7 +3195,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3249,7 +3250,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3282,7 +3283,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/footer.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/footer.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -3339,7 +3340,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
               class="ant-pro-card-statistic-content"
             >
               <div
-                class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
               >
                 <div
                   class="ant-statistic-content"
@@ -3378,7 +3379,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                       class="ant-pro-card-statistic-content"
                     >
                       <div
-                        class="ant-statistic ant-pro-card-statistic-layout-inline"
+                        class="ant-statistic ant-pro-card-statistic-layout-inline css-dev-only-do-not-override-17a39f8"
                       >
                         <div
                           class="ant-statistic-title"
@@ -3425,7 +3426,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
               class="ant-pro-card-statistic-content"
             >
               <div
-                class="ant-statistic ant-pro-card-statistic-layout-horizontal"
+                class="ant-statistic ant-pro-card-statistic-layout-horizontal css-dev-only-do-not-override-17a39f8"
               >
                 <div
                   class="ant-statistic-title"
@@ -3469,7 +3470,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
               class="ant-pro-card-statistic-content"
             >
               <div
-                class="ant-statistic ant-pro-card-statistic-layout-horizontal"
+                class="ant-statistic ant-pro-card-statistic-layout-horizontal css-dev-only-do-not-override-17a39f8"
               >
                 <div
                   class="ant-statistic-title"
@@ -3509,7 +3510,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/group.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/group.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -3552,7 +3553,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3632,7 +3633,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3695,7 +3696,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3750,7 +3751,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3793,7 +3794,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/group-chart.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/group-chart.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -3827,7 +3828,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3899,7 +3900,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -3961,7 +3962,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -4008,7 +4009,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/horizontal.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/horizontal.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -4033,7 +4034,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
               class="ant-pro-card-statistic-content"
             >
               <div
-                class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
               >
                 <div
                   class="ant-statistic-title"
@@ -4077,7 +4078,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                       class="ant-pro-card-statistic-content"
                     >
                       <div
-                        class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up"
+                        class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up css-dev-only-do-not-override-17a39f8"
                       >
                         <div
                           class="ant-statistic-title"
@@ -4114,7 +4115,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                       class="ant-pro-card-statistic-content"
                     >
                       <div
-                        class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down"
+                        class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down css-dev-only-do-not-override-17a39f8"
                       >
                         <div
                           class="ant-statistic-title"
@@ -4160,7 +4161,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/horizontal-left.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/horizontal-left.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -4194,7 +4195,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
               class="ant-pro-card-statistic-content"
             >
               <div
-                class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
               >
                 <div
                   class="ant-statistic-title"
@@ -4238,7 +4239,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                       class="ant-pro-card-statistic-content"
                     >
                       <div
-                        class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up"
+                        class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up css-dev-only-do-not-override-17a39f8"
                       >
                         <div
                           class="ant-statistic-title"
@@ -4275,7 +4276,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                       class="ant-pro-card-statistic-content"
                     >
                       <div
-                        class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down"
+                        class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down css-dev-only-do-not-override-17a39f8"
                       >
                         <div
                           class="ant-statistic-title"
@@ -4312,7 +4313,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/icon.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/icon.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -4355,7 +4356,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -4414,7 +4415,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -4473,7 +4474,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -4532,7 +4533,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -4565,7 +4566,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/layout.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/layout.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -4639,7 +4640,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                       class="ant-pro-card-statistic-content"
                                     >
                                       <div
-                                        class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                                        class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                                       >
                                         <div
                                           class="ant-statistic-title"
@@ -4673,7 +4674,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                               class="ant-pro-card-statistic-content"
                                             >
                                               <div
-                                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down"
+                                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down css-dev-only-do-not-override-17a39f8"
                                               >
                                                 <div
                                                   class="ant-statistic-title"
@@ -4730,7 +4731,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                       class="ant-pro-card-statistic-content"
                                     >
                                       <div
-                                        class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                                        class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                                       >
                                         <div
                                           class="ant-statistic-title"
@@ -4764,7 +4765,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                               class="ant-pro-card-statistic-content"
                                             >
                                               <div
-                                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up"
+                                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up css-dev-only-do-not-override-17a39f8"
                                               >
                                                 <div
                                                   class="ant-statistic-title"
@@ -4833,7 +4834,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                       class="ant-pro-card-statistic-content"
                                     >
                                       <div
-                                        class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                                        class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                                       >
                                         <div
                                           class="ant-statistic-title"
@@ -4884,7 +4885,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                       class="ant-pro-card-statistic-content"
                                     >
                                       <div
-                                        class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                                        class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                                       >
                                         <div
                                           class="ant-statistic-title"
@@ -4998,7 +4999,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/status.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/status.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -5032,7 +5033,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -5107,7 +5108,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-status"
                   >
                     <span
-                      class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                      class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                     >
                       <span
                         class="ant-badge-status-dot ant-badge-status-default"
@@ -5118,7 +5119,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -5168,7 +5169,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-status"
                   >
                     <span
-                      class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                      class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                     >
                       <span
                         class="ant-badge-status-dot ant-badge-status-processing"
@@ -5179,7 +5180,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -5229,7 +5230,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-status"
                   >
                     <span
-                      class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                      class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                     >
                       <span
                         class="ant-badge-status-dot ant-badge-status-error"
@@ -5240,7 +5241,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -5290,7 +5291,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-status"
                   >
                     <span
-                      class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                      class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                     >
                       <span
                         class="ant-badge-status-dot ant-badge-status-success"
@@ -5301,7 +5302,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -5330,7 +5331,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/tabs.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/tabs.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -5342,7 +5343,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
       class="ant-pro-card-tabs"
     >
       <div
-        class="ant-tabs ant-tabs-top"
+        class="ant-tabs ant-tabs-top css-dev-only-do-not-override-17a39f8"
       >
         <div
           class="ant-tabs-nav"
@@ -5378,7 +5379,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -5427,7 +5428,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-status"
                       >
                         <span
-                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                         >
                           <span
                             class="ant-badge-status-dot ant-badge-status-default"
@@ -5438,7 +5439,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -5487,7 +5488,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-status"
                       >
                         <span
-                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                         >
                           <span
                             class="ant-badge-status-dot ant-badge-status-processing"
@@ -5498,7 +5499,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -5547,7 +5548,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-status"
                       >
                         <span
-                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                         >
                           <span
                             class="ant-badge-status-dot ant-badge-status-error"
@@ -5558,7 +5559,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -5607,7 +5608,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-status"
                       >
                         <span
-                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                         >
                           <span
                             class="ant-badge-status-dot ant-badge-status-success"
@@ -5618,7 +5619,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -5723,7 +5724,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/tabs-statistic.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/tabs-statistic.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -5735,7 +5736,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
       class="ant-pro-card-tabs"
     >
       <div
-        class="ant-tabs ant-tabs-top"
+        class="ant-tabs ant-tabs-top css-dev-only-do-not-override-17a39f8"
       >
         <div
           class="ant-tabs-nav"
@@ -5771,7 +5772,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -5820,7 +5821,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-status"
                       >
                         <span
-                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                         >
                           <span
                             class="ant-badge-status-dot ant-badge-status-default"
@@ -5831,7 +5832,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -5880,7 +5881,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-status"
                       >
                         <span
-                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                         >
                           <span
                             class="ant-badge-status-dot ant-badge-status-processing"
@@ -5891,7 +5892,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -5940,7 +5941,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-status"
                       >
                         <span
-                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                         >
                           <span
                             class="ant-badge-status-dot ant-badge-status-error"
@@ -5951,7 +5952,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -6000,7 +6001,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-status"
                       >
                         <span
-                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                          class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                         >
                           <span
                             class="ant-badge-status-dot ant-badge-status-success"
@@ -6011,7 +6012,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -6116,7 +6117,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/total.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/total.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -6150,7 +6151,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -6212,7 +6213,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -6246,7 +6247,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                             class="ant-pro-card-statistic-content"
                           >
                             <div
-                              class="ant-statistic ant-pro-card-statistic-layout-inline"
+                              class="ant-statistic ant-pro-card-statistic-layout-inline css-dev-only-do-not-override-17a39f8"
                             >
                               <div
                                 class="ant-statistic-title"
@@ -6305,7 +6306,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -6339,7 +6340,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                             class="ant-pro-card-statistic-content"
                           >
                             <div
-                              class="ant-statistic ant-pro-card-statistic-layout-inline"
+                              class="ant-statistic ant-pro-card-statistic-layout-inline css-dev-only-do-not-override-17a39f8"
                             >
                               <div
                                 class="ant-statistic-title"
@@ -6372,7 +6373,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/total-layout.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/total-layout.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -6414,7 +6415,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                      class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-content"
@@ -6453,7 +6454,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                             class="ant-pro-card-statistic-content"
                           >
                             <div
-                              class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up"
+                              class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up css-dev-only-do-not-override-17a39f8"
                             >
                               <div
                                 class="ant-statistic-title"
@@ -6507,7 +6508,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-horizontal"
+                      class="ant-statistic ant-pro-card-statistic-layout-horizontal css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -6537,7 +6538,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-horizontal"
+                      class="ant-statistic ant-pro-card-statistic-layout-horizontal css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -6567,7 +6568,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                     class="ant-pro-card-statistic-content"
                   >
                     <div
-                      class="ant-statistic ant-pro-card-statistic-layout-horizontal"
+                      class="ant-statistic ant-pro-card-statistic-layout-horizontal css-dev-only-do-not-override-17a39f8"
                     >
                       <div
                         class="ant-statistic-title"
@@ -6620,7 +6621,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -6654,7 +6655,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                 class="ant-pro-card-statistic-content"
                               >
                                 <div
-                                  class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up"
+                                  class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up css-dev-only-do-not-override-17a39f8"
                                 >
                                   <div
                                     class="ant-statistic-title"
@@ -6705,7 +6706,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                       class="ant-pro-card-statistic-content"
                     >
                       <div
-                        class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                        class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                       >
                         <div
                           class="ant-statistic-title"
@@ -6739,7 +6740,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                               class="ant-pro-card-statistic-content"
                             >
                               <div
-                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down"
+                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down css-dev-only-do-not-override-17a39f8"
                               >
                                 <div
                                   class="ant-statistic-title"
@@ -6795,7 +6796,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -6829,7 +6830,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                 class="ant-pro-card-statistic-content"
                               >
                                 <div
-                                  class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down"
+                                  class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down css-dev-only-do-not-override-17a39f8"
                                 >
                                   <div
                                     class="ant-statistic-title"
@@ -6880,7 +6881,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                       class="ant-pro-card-statistic-content"
                     >
                       <div
-                        class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                        class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                       >
                         <div
                           class="ant-statistic-title"
@@ -6914,7 +6915,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                               class="ant-pro-card-statistic-content"
                             >
                               <div
-                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up"
+                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up css-dev-only-do-not-override-17a39f8"
                               >
                                 <div
                                   class="ant-statistic-title"
@@ -6970,7 +6971,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                         class="ant-pro-card-statistic-content"
                       >
                         <div
-                          class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                          class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                         >
                           <div
                             class="ant-statistic-title"
@@ -7004,7 +7005,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                                 class="ant-pro-card-statistic-content"
                               >
                                 <div
-                                  class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up"
+                                  class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up css-dev-only-do-not-override-17a39f8"
                                 >
                                   <div
                                     class="ant-statistic-title"
@@ -7055,7 +7056,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                       class="ant-pro-card-statistic-content"
                     >
                       <div
-                        class="ant-statistic ant-pro-card-statistic-layout-vertical"
+                        class="ant-statistic ant-pro-card-statistic-layout-vertical css-dev-only-do-not-override-17a39f8"
                       >
                         <div
                           class="ant-statistic-title"
@@ -7089,7 +7090,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
                               class="ant-pro-card-statistic-content"
                             >
                               <div
-                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down"
+                                class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down css-dev-only-do-not-override-17a39f8"
                               >
                                 <div
                                   class="ant-statistic-title"
@@ -7130,7 +7131,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/demos/trend.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/components/StatisticCard/demos/trend.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -7152,7 +7153,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
             class="ant-pro-card-statistic-content"
           >
             <div
-              class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up"
+              class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-up css-dev-only-do-not-override-17a39f8"
             >
               <div
                 class="ant-statistic-title"
@@ -7189,7 +7190,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
             class="ant-pro-card-statistic-content"
           >
             <div
-              class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down"
+              class="ant-statistic ant-pro-card-statistic-layout-inline ant-pro-card-statistic-trend-down css-dev-only-do-not-override-17a39f8"
             >
               <div
                 class="ant-statistic-title"
@@ -7226,7 +7227,7 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
             class="ant-pro-card-statistic-content"
           >
             <div
-              class="ant-statistic ant-pro-card-statistic-layout-inline"
+              class="ant-statistic ant-pro-card-statistic-layout-inline css-dev-only-do-not-override-17a39f8"
             >
               <div
                 class="ant-statistic-title"
@@ -7251,13 +7252,13 @@ exports[`card demos 📸 renders ./packages/card/src/components/StatisticCard/de
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/actions.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/actions.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <div
-    class="ant-space ant-space-horizontal ant-space-align-center"
+    class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-center"
   >
     <div
       class="ant-space-item"
@@ -7462,7 +7463,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/actions.tsx correctly
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/basic.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/basic.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -7521,7 +7522,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/basic.tsx correctly 1
         >
           <div>
             <div
-              class="ant-space ant-space-horizontal ant-space-align-start ant-pro-form-group-container "
+              class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-start ant-pro-form-group-container "
               style="row-gap: 0;"
             >
               <div
@@ -7529,7 +7530,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/basic.tsx correctly 1
               >
                 <button
                   aria-checked="false"
-                  class="ant-switch"
+                  class="ant-switch css-dev-only-do-not-override-17a39f8"
                   id="Enable"
                   role="switch"
                   type="button"
@@ -7641,7 +7642,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/basic.tsx correctly 1
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/bordered.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/bordered.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -7707,7 +7708,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/bordered.tsx correctl
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/collapsible.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/collapsible.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -7749,7 +7750,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/collapsible.tsx corre
           class="ant-pro-card-extra"
         >
           <button
-            class="ant-btn ant-btn-default ant-btn-sm"
+            class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default ant-btn-sm"
             type="button"
           >
             <span>
@@ -7798,7 +7799,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/collapsible.tsx corre
           class="ant-pro-card-extra"
         >
           <button
-            class="ant-btn ant-btn-default ant-btn-sm"
+            class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default ant-btn-sm"
             type="button"
           >
             <span>
@@ -7847,7 +7848,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/collapsible.tsx corre
           class="ant-pro-card-extra"
         >
           <button
-            class="ant-btn ant-btn-default ant-btn-sm"
+            class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default ant-btn-sm"
             type="button"
           >
             <span>
@@ -7931,7 +7932,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/collapsible.tsx corre
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/colspan.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/colspan.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8137,7 +8138,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/colspan.tsx correctly
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/divider.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/divider.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8168,7 +8169,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/divider.tsx correctly
             class="ant-pro-card-body"
           >
             <div
-              class="ant-statistic"
+              class="ant-statistic css-dev-only-do-not-override-17a39f8"
             >
               <div
                 class="ant-statistic-title"
@@ -8210,7 +8211,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/divider.tsx correctly
             class="ant-pro-card-body"
           >
             <div
-              class="ant-statistic"
+              class="ant-statistic css-dev-only-do-not-override-17a39f8"
             >
               <div
                 class="ant-statistic-title"
@@ -8252,7 +8253,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/divider.tsx correctly
             class="ant-pro-card-body"
           >
             <div
-              class="ant-statistic"
+              class="ant-statistic css-dev-only-do-not-override-17a39f8"
             >
               <div
                 class="ant-statistic-title"
@@ -8294,7 +8295,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/divider.tsx correctly
             class="ant-pro-card-body"
           >
             <div
-              class="ant-statistic"
+              class="ant-statistic css-dev-only-do-not-override-17a39f8"
             >
               <div
                 class="ant-statistic-title"
@@ -8323,7 +8324,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/divider.tsx correctly
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/group.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/group.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8410,7 +8411,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/group.tsx correctly 1
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/gutter.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/gutter.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8565,7 +8566,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/gutter.tsx correctly 
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/headerBordered.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/headerBordered.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8631,7 +8632,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/headerBordered.tsx co
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/headless.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/headless.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8649,7 +8650,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/headless.tsx correctl
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/hoverable.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/hoverable.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8667,7 +8668,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/hoverable.tsx correct
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/inner.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/inner.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8802,7 +8803,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/inner.tsx correctly 1
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/layout.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/layout.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8839,7 +8840,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/layout.tsx correctly 
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/loading.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -8855,11 +8856,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
         class="ant-pro-card-loading-content"
       >
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-22"
+            class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8868,11 +8869,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
           </div>
         </div>
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-8"
+            class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8880,7 +8881,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-15"
+            class="ant-col ant-col-15 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8889,11 +8890,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
           </div>
         </div>
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-6"
+            class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8901,7 +8902,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-18"
+            class="ant-col ant-col-18 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8910,11 +8911,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
           </div>
         </div>
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-13"
+            class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8922,7 +8923,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-9"
+            class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8931,11 +8932,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
           </div>
         </div>
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-4"
+            class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8943,7 +8944,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-3"
+            class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8951,7 +8952,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-16"
+            class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8973,11 +8974,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
         class="ant-pro-card-loading-content"
       >
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-22"
+            class="ant-col ant-col-22 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8986,11 +8987,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
           </div>
         </div>
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-8"
+            class="ant-col ant-col-8 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -8998,7 +8999,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-15"
+            class="ant-col ant-col-15 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -9007,11 +9008,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
           </div>
         </div>
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-6"
+            class="ant-col ant-col-6 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -9019,7 +9020,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-18"
+            class="ant-col ant-col-18 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -9028,11 +9029,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
           </div>
         </div>
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-13"
+            class="ant-col ant-col-13 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -9040,7 +9041,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-9"
+            class="ant-col ant-col-9 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -9049,11 +9050,11 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
           </div>
         </div>
         <div
-          class="ant-row"
+          class="ant-row css-dev-only-do-not-override-17a39f8"
           style="margin-left: -4px; margin-right: -4px;"
         >
           <div
-            class="ant-col ant-col-4"
+            class="ant-col ant-col-4 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -9061,7 +9062,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-3"
+            class="ant-col ant-col-3 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -9069,7 +9070,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
             />
           </div>
           <div
-            class="ant-col ant-col-16"
+            class="ant-col ant-col-16 css-dev-only-do-not-override-17a39f8"
             style="padding-left: 4px; padding-right: 4px;"
           >
             <div
@@ -9109,7 +9110,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/loading.tsx correctly
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/multipleLine.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/multipleLine.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -9191,7 +9192,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/multipleLine.tsx corr
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/responsive.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/responsive.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -9351,7 +9352,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/responsive.tsx correc
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/split.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/split.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -9597,7 +9598,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/split.tsx correctly 1
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/split2.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/split2.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -9680,7 +9681,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/split2.tsx correctly 
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/split23.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/split23.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -9745,7 +9746,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/split23.tsx correctly
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/steps-v.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/steps-v.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -9767,7 +9768,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/steps-v.tsx correctly
             class="ant-pro-card-body"
           >
             <div
-              class="ant-steps ant-steps-vertical ant-steps-small"
+              class="ant-steps ant-steps-vertical css-dev-only-do-not-override-17a39f8 ant-steps-small"
               style="height: 100%;"
             >
               <div
@@ -9938,14 +9939,14 @@ exports[`card demos 📸 renders ./packages/card/src/demos/steps-v.tsx correctly
             class="ant-pro-card-body"
           >
             <div
-              class="ant-space ant-space-horizontal ant-space-align-center"
+              class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-center"
             >
               <div
                 class="ant-space-item"
                 style="margin-right: 8px;"
               >
                 <button
-                  class="ant-btn ant-btn-primary"
+                  class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-primary"
                   type="button"
                 >
                   <span>
@@ -9957,7 +9958,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/steps-v.tsx correctly
                 class="ant-space-item"
               >
                 <button
-                  class="ant-btn ant-btn-default"
+                  class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default"
                   disabled=""
                   type="button"
                 >
@@ -9975,14 +9976,14 @@ exports[`card demos 📸 renders ./packages/card/src/demos/steps-v.tsx correctly
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/tabs.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/tabs.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <div>
     <div
-      class="ant-space ant-space-horizontal ant-space-align-center"
+      class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-center"
       style="margin-block-end: 16px;"
     >
       <div
@@ -9995,7 +9996,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/tabs.tsx correctly 1`
         class="ant-space-item"
       >
         <div
-          class="ant-select ant-select-single ant-select-show-arrow"
+          class="ant-select css-dev-only-do-not-override-17a39f8 ant-select-single ant-select-show-arrow"
         >
           <div
             class="ant-select-selector"
@@ -10064,7 +10065,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/tabs.tsx correctly 1`
         class="ant-pro-card-tabs"
       >
         <div
-          class="ant-tabs ant-tabs-top"
+          class="ant-tabs ant-tabs-top css-dev-only-do-not-override-17a39f8"
         >
           <div
             class="ant-tabs-nav"
@@ -10197,7 +10198,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/tabs.tsx correctly 1`
 </DocumentFragment>
 `;
 
-exports[`card demos 📸 renders ./packages/card/src/demos/tabs-card.tsx correctly 1`] = `
+exports[`card demos > 📸 renders ./packages/card/src/demos/tabs-card.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -10209,7 +10210,7 @@ exports[`card demos 📸 renders ./packages/card/src/demos/tabs-card.tsx correct
       class="ant-pro-card-tabs"
     >
       <div
-        class="ant-tabs ant-tabs-top ant-tabs-card"
+        class="ant-tabs ant-tabs-top ant-tabs-card css-dev-only-do-not-override-17a39f8"
       >
         <div
           class="ant-tabs-nav"

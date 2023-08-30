@@ -198,7 +198,7 @@ const EditorProTableDemo = (
         </Button>,
       ]}
       columns={columns.map((item) => {
-        if (!props.hideRules) {
+        if (props.hideRules) {
           // eslint-disable-next-line no-param-reassign
           delete item.formItemProps;
         }
@@ -225,8 +225,13 @@ const EditorProTableDemo = (
   );
 };
 describe('EditorProTable 2', () => {
+  beforeAll(() => {
+    const { getComputedStyle } = window;
+    window.getComputedStyle = (elt) => getComputedStyle(elt);
+  });
+
   it('📝 EditableProTable controlled will trigger onchange', async () => {
-    const onChange = jest.fn();
+    const onChange = vi.fn();
     const wrapper = render(
       <EditableProTable<DataSourceType>
         rowKey="id"
@@ -289,10 +294,11 @@ describe('EditorProTable 2', () => {
         index: undefined,
       });
     });
+    wrapper.unmount();
   });
 
   it('📝 EditableProTable render input controlled will trigger onchange', async () => {
-    const onChange = jest.fn();
+    const onChange = vi.fn();
     const wrapper = render(
       <EditableProTable<DataSourceType>
         rowKey="id"
@@ -380,10 +386,11 @@ describe('EditorProTable 2', () => {
         index: undefined,
       });
     });
+    wrapper.unmount();
   });
 
   it('📝 EditableProTable render ProFromText controlled will trigger onchange ', async () => {
-    const onChange = jest.fn();
+    const onChange = vi.fn();
     const wrapper = render(
       <EditableProTable<DataSourceType>
         rowKey="id"
@@ -463,10 +470,11 @@ describe('EditorProTable 2', () => {
         index: undefined,
       });
     });
+    wrapper.unmount();
   });
 
   it('📝 EditableProTable support name', async () => {
-    const onChange = jest.fn();
+    const onChange = vi.fn();
     const wrapper = render(
       <ProForm
         initialValues={{
@@ -529,10 +537,11 @@ describe('EditorProTable 2', () => {
         ]),
       );
     });
+    wrapper.unmount();
   });
 
   it('📝 EditableProTable support name and setRowData', async () => {
-    const onChange = jest.fn();
+    const onChange = vi.fn();
     let i = 0;
     const formRef = React.createRef<EditableFormInstance<any>>();
     const wrapper = render(
@@ -622,13 +631,14 @@ describe('EditorProTable 2', () => {
     });
 
     expect(formRef.current?.getFieldValue('table').length).toEqual(2);
+    wrapper.unmount();
   });
 
   it('📝 EditableProTable ensures that xxxProps are functions also executed', async () => {
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
 
-    const formItemPropsFn = jest.fn();
-    const fieldPropsFn = jest.fn();
+    const formItemPropsFn = vi.fn();
+    const fieldPropsFn = vi.fn();
 
     const currentlyColumns: ProColumns<DataSourceType>[] = [
       {
@@ -678,7 +688,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 sub-column values are correct in the form', async () => {
-    const errorSpy = jest.spyOn(console, 'error').mockImplementation(() => {});
+    const errorSpy = vi.spyOn(console, 'error').mockImplementation(() => {});
 
     const currentlyColumns: ProColumns<DataSourceType>[] = [
       {
@@ -745,6 +755,7 @@ describe('EditorProTable 2', () => {
       expect(errorSpy).not.toBeCalled();
     });
     errorSpy.mockRestore();
+    wrapper.unmount();
   });
 
   it('📝 EditableProTable support recordCreatorProps.position', async () => {
@@ -762,10 +773,11 @@ describe('EditorProTable 2', () => {
     );
     await wrapper.findAllByText('测试添加数据');
     expect(wrapper.asFragment).toMatchSnapshot();
+    wrapper.unmount();
   });
 
   it('📝 support onEditorChange', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         onEditorChange={(keys) => {
@@ -787,7 +799,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support onValuesChange', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditableProTable<DataSourceType>
         rowKey="id"
@@ -840,11 +852,12 @@ describe('EditorProTable 2', () => {
         timeout: 1000,
       },
     );
+    wrapper.unmount();
   });
 
   it('📝 EditableProTable columns support dependencies', async () => {
-    const fn = jest.fn();
-    jest.useFakeTimers();
+    const fn = vi.fn();
+    vi.useFakeTimers();
     const wrapper = render(
       <EditableProTable<DataSourceType>
         rowKey="id"
@@ -905,7 +918,7 @@ describe('EditorProTable 2', () => {
     });
 
     await act(async () => {
-      jest.runOnlyPendingTimers();
+      vi.runOnlyPendingTimers();
     });
 
     await waitFor(
@@ -916,11 +929,12 @@ describe('EditorProTable 2', () => {
         timeout: 1000,
       },
     );
-    jest.useRealTimers();
+    vi.useRealTimers();
+    wrapper.unmount();
   });
 
   it('📝 support onValuesChange when is string key', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditableProTable<DataSourceType>
         rowKey="id"
@@ -970,7 +984,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support newRecordType = dataSource', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditableProTable<DataSourceType>
         rowKey="id"
@@ -1002,11 +1016,12 @@ describe('EditorProTable 2', () => {
         timeout: 1000,
       },
     );
+    wrapper.unmount();
   });
 
   it('📝 support onValueChange when newRecordType = cache', async () => {
-    const fn = jest.fn();
-    const onValueChangeFn = jest.fn();
+    const fn = vi.fn();
+    const onValueChangeFn = vi.fn();
     const wrapper = render(
       <EditableProTable<DataSourceType>
         rowKey="id"
@@ -1082,7 +1097,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support onValueChange when has name', async () => {
-    const onValueChangeFn = jest.fn();
+    const onValueChangeFn = vi.fn();
     const actionRef = React.createRef<ActionType | undefined>();
     const wrapper = render(
       <ProForm
@@ -1172,10 +1187,11 @@ describe('EditorProTable 2', () => {
           .querySelectorAll('td .ant-input').length,
       ).toBe(0);
     });
+    wrapper.unmount();
   });
 
   it('📝 support onValuesChange and recordCreatorProps', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const newLineId = Date.now();
     const wrapper = render(
       <EditableProTable<DataSourceType>
@@ -1276,6 +1292,7 @@ describe('EditorProTable 2', () => {
     );
     await wrapper.findAllByText('序号');
     expect(wrapper.asFragment()).toMatchSnapshot();
+    wrapper.unmount();
   });
 
   it('📝 columns support editable test', async () => {
@@ -1307,6 +1324,7 @@ describe('EditorProTable 2', () => {
     );
     await wrapper.findAllByText('序号');
     expect(wrapper.asFragment()).toMatchSnapshot();
+    wrapper.unmount();
   });
 
   it('📝 columns initialValue alway work', async () => {
@@ -1360,6 +1378,7 @@ describe('EditorProTable 2', () => {
     await wrapper.queryByDisplayValue('123');
 
     expect(wrapper.asFragment()).toMatchSnapshot();
+    wrapper.unmount();
   });
 
   it('📝 support editorRowKeys', async () => {
@@ -1381,6 +1400,7 @@ describe('EditorProTable 2', () => {
           .querySelectorAll('input').length > 0,
       ).toBeFalsy();
     });
+    wrapper.unmount();
   });
 
   it('📝 support cancel click', async () => {
@@ -1412,7 +1432,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support cancel click render false', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         onEditorChange={(keys) => {
@@ -1450,7 +1470,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 type=single, only edit one rows', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         defaultKeys={[624748504]}
@@ -1490,7 +1510,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 edit tree data table', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo onSave={fn} dataSource={[defaultData[2]]} />,
     );
@@ -1535,7 +1555,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 type=multiple, edit multiple rows', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         type="multiple"
@@ -1558,8 +1578,70 @@ describe('EditorProTable 2', () => {
     wrapper.unmount();
   });
 
+  it('📝 support form rules', async () => {
+    const fn = vi.fn();
+    const wrapper = render(
+      <EditorProTableDemo onSave={(key, row) => fn(row.title)} />,
+    );
+    await wrapper.findAllByText('编辑');
+
+    act(() => {
+      wrapper.queryAllByText('编辑')[0]?.click();
+    });
+
+    await waitFor(() => {
+      expect(
+        wrapper.container
+          .querySelectorAll('.ant-table-tbody tr.ant-table-row')[0]
+          .querySelectorAll('input').length > 0,
+      ).toBeTruthy();
+    });
+
+    fireEvent.change(
+      await wrapper.findByDisplayValue(
+        '🐛 [BUG]yarn install命令 antd2.4.5会报错',
+      ),
+      {
+        target: {
+          value: '',
+        },
+      },
+    );
+
+    await wrapper.findAllByText('保存');
+
+    act(() => {
+      wrapper.queryAllByText('保存')[0]?.click();
+    });
+
+    await waitFor(() => {
+      // 没有通过验证，不触发 onSave
+      expect(fn).not.toBeCalled();
+    });
+
+    fireEvent.change(
+      wrapper.container
+        .querySelectorAll('.ant-table-tbody tr.ant-table-row')[0]
+        .querySelectorAll('td input')[1],
+      {
+        target: {
+          value: 'qixian',
+        },
+      },
+    );
+
+    act(() => {
+      wrapper.queryAllByText('保存')[0]?.click();
+    });
+
+    await waitFor(() => {
+      expect(fn).toBeCalledWith('qixian');
+    });
+    wrapper.unmount();
+  });
+
   it('📝 support onSave', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         hideRules
@@ -1609,8 +1691,8 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support onDelete', async () => {
-    const fn = jest.fn();
-    jest.useFakeTimers();
+    const fn = vi.fn();
+    vi.useFakeTimers();
     const wrapper = render(
       <EditorProTableDemo
         hideRules
@@ -1628,7 +1710,7 @@ describe('EditorProTable 2', () => {
         .click();
     });
 
-    await act(async () => jest.runOnlyPendingTimers());
+    await act(async () => vi.runOnlyPendingTimers());
 
     await waitFor(() => {
       expect(
@@ -1644,7 +1726,7 @@ describe('EditorProTable 2', () => {
       wrapper.queryAllByText('删除').at(0)?.click();
     });
 
-    await act(async () => jest.runOnlyPendingTimers());
+    await act(async () => vi.runOnlyPendingTimers());
 
     await waitFor(() => {
       expect(fn).not.toBeCalled();
@@ -1654,19 +1736,19 @@ describe('EditorProTable 2', () => {
       wrapper.queryAllByText('确 定').at(0)?.click();
     });
 
-    await act(async () => jest.runOnlyPendingTimers());
+    await act(async () => vi.runOnlyPendingTimers());
 
     await waitFor(() => {
       expect(fn).toBeCalledWith(624691229);
     });
+    vi.useRealTimers();
     wrapper.unmount();
-    jest.useRealTimers();
   });
 
   it('📝 support onSave when add newLine', async () => {
-    const onSave = jest.fn();
-    const onDataSourceChange = jest.fn();
-    jest.useFakeTimers();
+    const onSave = vi.fn();
+    const onDataSourceChange = vi.fn();
+    vi.useFakeTimers();
     const wrapper = render(
       <EditorProTableDemo
         hideRules
@@ -1683,7 +1765,7 @@ describe('EditorProTable 2', () => {
         .click();
     });
 
-    await act(async () => jest.runOnlyPendingTimers());
+    await act(async () => vi.runOnlyPendingTimers());
 
     await waitFor(() => {
       expect.any(
@@ -1706,7 +1788,7 @@ describe('EditorProTable 2', () => {
       (await wrapper.queryAllByText('添加一行数据')).at(0)?.click();
     });
 
-    await act(async () => jest.runOnlyPendingTimers());
+    await act(async () => vi.runOnlyPendingTimers());
 
     await waitFor(() => {
       expect(onSave).toBeCalledWith(624691229);
@@ -1716,7 +1798,7 @@ describe('EditorProTable 2', () => {
       expect(onDataSourceChange).toBeCalledWith(3);
     });
 
-    jest.useRealTimers();
+    vi.useRealTimers();
     wrapper.unmount();
   });
 
@@ -1820,7 +1902,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support onSave support false', async () => {
-    const onSaveFn = jest.fn();
+    const onSaveFn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         hideRules
@@ -1865,7 +1947,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support onCancel', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(<EditorProTableDemo onCancel={(key) => fn(key)} />);
     await wrapper.findAllByText('编辑');
     act(() => {
@@ -1892,10 +1974,11 @@ describe('EditorProTable 2', () => {
     await waitFor(() => {
       expect(fn).toBeCalledWith(624691229);
     });
+    wrapper.unmount();
   });
 
   it('📝 support onCancel support false', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         onCancel={async (key) => {
@@ -1978,7 +2061,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support onDelete dom render', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         onDelete={async (key) => {
@@ -2016,10 +2099,11 @@ describe('EditorProTable 2', () => {
       expect(fn).toBeCalledWith(624691229);
       expect(wrapper.queryAllByText('删除').length > 0).toBeFalsy();
     });
+    wrapper.unmount();
   });
 
   it('📝 support onDelete return false', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(
       <EditorProTableDemo
         onDelete={async (key) => {
@@ -2053,76 +2137,11 @@ describe('EditorProTable 2', () => {
     await waitFor(() => {
       expect(fn).toBeCalledWith(624691229);
     });
-  });
-
-  it('📝 support form rules', async () => {
-    const fn = jest.fn();
-    const wrapper = render(
-      <EditorProTableDemo onSave={(key, row) => fn(row.title)} />,
-    );
-    await wrapper.findAllByText('编辑');
-
-    act(() => {
-      wrapper.queryAllByText('编辑')[0]?.click();
-    });
-
-    await waitFor(() => {
-      expect(
-        wrapper.container
-          .querySelectorAll('.ant-table-tbody tr.ant-table-row')[0]
-          .querySelectorAll('input').length > 0,
-      ).toBeTruthy();
-    });
-
-    act(() => {
-      fireEvent.change(
-        wrapper.container
-          .querySelectorAll('.ant-table-tbody tr.ant-table-row')[0]
-          .querySelectorAll(`input`)[0],
-        {
-          target: {
-            value: '',
-          },
-        },
-      );
-    });
-
-    await wrapper.findAllByText('保存');
-
-    act(() => {
-      wrapper.queryAllByText('保存')[0]?.click();
-    });
-
-    await waitFor(() => {
-      // 没有通过验证，不触发 onSave
-      expect(fn).not.toBeCalled();
-    });
-
-    act(() => {
-      fireEvent.change(
-        wrapper.container
-          .querySelectorAll('.ant-table-tbody tr.ant-table-row')[0]
-          .querySelectorAll(`td .ant-input`)[0],
-        {
-          target: {
-            value: 'qixian',
-          },
-        },
-      );
-    });
-
-    act(() => {
-      wrapper.queryAllByText('保存')[0]?.click();
-    });
-
-    await waitFor(() => {
-      expect(fn).toBeCalledWith('qixian');
-    });
     wrapper.unmount();
   });
 
   it('📝 support add line for start', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(<EditorProTableDemo position="top" onSave={fn} />);
     await wrapper.findAllByText('编辑');
 
@@ -2185,7 +2204,7 @@ describe('EditorProTable 2', () => {
   });
 
   it('📝 support add line for bottom', async () => {
-    const fn = jest.fn();
+    const fn = vi.fn();
     const wrapper = render(<EditorProTableDemo onSave={fn} />);
     await wrapper.findByText('增加一行');
 

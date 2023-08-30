@@ -21,14 +21,14 @@ describe('BasicLayout', () => {
   });
   beforeAll(() => {
     process.env.NODE_ENV = 'TEST';
-    const matchMediaSpy = jest.spyOn(window, 'matchMedia');
+    const matchMediaSpy = vi.spyOn(window, 'matchMedia');
     matchMediaSpy.mockImplementation(
       (query) =>
         ({
           addListener: (cb: (e: { matches: boolean }) => void) => {
             cb({ matches: query === '(min-width: 768px)' });
           },
-          removeListener: jest.fn(),
+          removeListener: vi.fn(),
           matches: query === '(min-width: 768px)',
         } as any),
     );
@@ -1428,7 +1428,7 @@ describe('BasicLayout', () => {
     expect(
       html.baseElement.querySelectorAll('li.ant-menu-submenu').length,
     ).toBe(2);
-    const domParentMenu = await (await html.findAllByText('列表页')).at(0);
+    const domParentMenu = (await html.findAllByText('列表页')).at(0);
     act(() => {
       domParentMenu?.click();
     });
@@ -1436,8 +1436,8 @@ describe('BasicLayout', () => {
     expect(
       html.baseElement.querySelectorAll('li.ant-menu-submenu-open').length,
     ).toBe(2);
-    const domChildMenu = await (await html.findAllByText('二级列表页面')).at(0);
-    const domLink = await (await html.findAllByText('AntDesign外链')).at(0);
+    const domChildMenu = (await html.findAllByText('二级列表页面')).at(0);
+    const domLink = (await html.findAllByText('AntDesign外链')).at(0);
     act(() => {
       domChildMenu?.click();
       domLink?.click();

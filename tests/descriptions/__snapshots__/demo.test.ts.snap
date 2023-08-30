@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/arrayDataIndex.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/arrayDataIndex.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -232,13 +232,13 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/array
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.demo-test.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/base.demo-test.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <button
-    class="ant-btn ant-btn-primary"
+    class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-primary"
     type="button"
   >
     <span>
@@ -246,7 +246,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
     </span>
   </button>
   <div
-    class="ant-descriptions ant-pro-descriptions"
+    class="ant-descriptions ant-pro-descriptions css-dev-only-do-not-override-17a39f8"
     tooltip="包含了从服务器请求，columns等功能"
   >
     <div
@@ -348,13 +348,13 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/base.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <div
-    class="ant-descriptions ant-pro-descriptions"
+    class="ant-descriptions ant-pro-descriptions css-dev-only-do-not-override-17a39f8"
     tooltip="包含了从服务器请求，columns等功能"
   >
     <div
@@ -403,7 +403,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
         class="ant-descriptions-extra"
       >
         <button
-          class="ant-btn ant-btn-primary"
+          class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-primary"
           type="button"
         >
           <span>
@@ -437,7 +437,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
                   style="min-width: 0; max-width: 80%;"
                 >
                   <span
-                    class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line"
+                    class="ant-typography ant-typography-ellipsis ant-typography-single-line ant-typography-ellipsis-single-line css-dev-only-do-not-override-17a39f8"
                     style="width: 100%; margin: 0px; padding: 0px;"
                     title=""
                   >
@@ -549,7 +549,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
                   style="min-width: 0;"
                 >
                   <span
-                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                   >
                     <span
                       class="ant-badge-status-dot ant-badge-status-error"
@@ -605,7 +605,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
                 >
                   <div
                     aria-valuenow="40"
-                    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-show-info ant-progress-small"
+                    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-show-info ant-progress-small css-dev-only-do-not-override-17a39f8"
                     role="progressbar"
                     style="min-width: 100px; max-width: 320px;"
                   >
@@ -648,7 +648,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
                   class="ant-descriptions-item-content"
                   style="min-width: 0;"
                 >
-                  2016-11-22 15:22:44
+                  2016-11-22 15:22:45
                 </span>
               </div>
             </td>
@@ -694,10 +694,10 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
                 >
                   <div>
                     <div>
-                      2016-11-21 15:22:44
+                      2016-11-21 15:22:45
                     </div>
                     <div>
-                      2016-11-22 15:22:44
+                      2016-11-22 15:22:45
                     </div>
                   </div>
                 </span>
@@ -724,7 +724,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/base.
                   style="min-width: 0;"
                 >
                   <span>
-                    15:22:44
+                    15:22:45
                   </span>
                 </span>
               </div>
@@ -818,13 +818,13 @@ Done in 9.70s.
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/columns.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/columns.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <div
-    class="ant-descriptions ant-pro-descriptions"
+    class="ant-descriptions ant-pro-descriptions css-dev-only-do-not-override-17a39f8"
     emptytext="空"
   >
     <div
@@ -935,7 +935,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/colum
                   style="min-width: 0;"
                 >
                   <span
-                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                   >
                     <span
                       class="ant-badge-status-dot ant-badge-status-default"
@@ -1228,7 +1228,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/colum
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/customization-value-type.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/customization-value-type.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -1404,7 +1404,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/custo
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/dynamic-descriptions.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/dynamic-descriptions.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -1427,7 +1427,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/dynam
             class="ant-pro-card-body"
           >
             <div
-              class="ant-descriptions ant-pro-descriptions"
+              class="ant-descriptions ant-pro-descriptions css-dev-only-do-not-override-17a39f8"
             >
               <div
                 class="ant-descriptions-header"
@@ -1513,7 +1513,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/dynam
                             style="min-width: 0;"
                           >
                             <span
-                              class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                              class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                             >
                               <span
                                 class="ant-badge-status-dot ant-badge-status-default"
@@ -2372,7 +2372,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/dynam
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/editable.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/editable.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
@@ -3249,13 +3249,13 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/edita
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/format.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/format.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <div
-    class="ant-descriptions ant-pro-descriptions"
+    class="ant-descriptions ant-pro-descriptions css-dev-only-do-not-override-17a39f8"
     tooltip="包含了从服务器请求，columns等功能"
   >
     <div
@@ -3347,10 +3347,10 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/forma
                 >
                   <div>
                     <div>
-                      2016.11.21 15:22:44
+                      2016.11.21 15:22:45
                     </div>
                     <div>
-                      2016.11.22 15:22:44
+                      2016.11.22 15:22:45
                     </div>
                   </div>
                 </span>
@@ -3398,7 +3398,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/forma
                   class="ant-descriptions-item-content"
                   style="min-width: 0;"
                 >
-                  2016.11.22 15:22:44
+                  2016.11.22 15:22:45
                 </span>
               </div>
             </td>
@@ -3436,13 +3436,13 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/forma
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/request.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/request.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <div
-    class="ant-descriptions ant-pro-descriptions"
+    class="ant-descriptions ant-pro-descriptions css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-descriptions-header"
@@ -3456,7 +3456,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/reque
         class="ant-descriptions-extra"
       >
         <div
-          class="ant-space ant-space-horizontal ant-space-align-center"
+          class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-center"
         >
           <div
             class="ant-space-item"
@@ -3467,7 +3467,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/reque
               style="display: flex; gap: 16px; align-items: center;"
             >
               <button
-                class="ant-btn ant-btn-primary"
+                class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-primary"
                 style="flex: 1;"
                 type="button"
               >
@@ -3476,7 +3476,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/reque
                 </span>
               </button>
               <button
-                class="ant-btn ant-btn-default"
+                class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default"
                 style="flex: 1;"
                 type="button"
               >
@@ -3490,7 +3490,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/reque
             class="ant-space-item"
           >
             <button
-              class="ant-btn ant-btn-link"
+              class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-link"
               type="button"
             >
               <span>
@@ -3582,13 +3582,13 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/reque
 </DocumentFragment>
 `;
 
-exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/use-data-source.tsx correctly 1`] = `
+exports[`descriptions demos > 📸 renders ./packages/descriptions/src/demos/use-data-source.tsx correctly 1`] = `
 <DocumentFragment>
   <div>
     test
   </div>
   <div
-    class="ant-descriptions ant-pro-descriptions"
+    class="ant-descriptions ant-pro-descriptions css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-descriptions-header"
@@ -3655,7 +3655,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/use-d
                 >
                   <span
                     aria-label="这是一段文本columns"
-                    class="ant-typography ant-typography-ellipsis ant-typography-single-line"
+                    class="ant-typography ant-typography-ellipsis ant-typography-single-line css-dev-only-do-not-override-17a39f8"
                     style="width: 100%; margin: 0px; padding: 0px;"
                     title=""
                   >
@@ -3755,7 +3755,7 @@ exports[`descriptions demos 📸 renders ./packages/descriptions/src/demos/use-d
                   style="min-width: 0;"
                 >
                   <span
-                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                   >
                     <span
                       class="ant-badge-status-dot ant-badge-status-default"

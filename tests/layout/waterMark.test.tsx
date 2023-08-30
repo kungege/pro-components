@@ -46,7 +46,7 @@ describe('WaterMark', () => {
   });
 
   it('test image watermark', async () => {
-    const spy = jest.spyOn(global.console, 'error').mockImplementation();
+    const spy = vi.spyOn(global.console, 'error').mockImplementation(() => {});
     const createElement = document.createElement.bind(document);
     // @ts-ignore
     document.createElement = (tagName: string) => {

@@ -1,62 +1,65 @@
 ﻿import '@testing-library/jest-dom';
-import 'jest-canvas-mock';
-import { enableFetchMocks } from 'jest-fetch-mock';
-import MockDate from 'mockdate';
-import React from 'react';
-import tableData from './table/mock.data.json';
-
+import type { TestingLibraryMatchers } from '@testing-library/jest-dom/matchers';
+import matchers from '@testing-library/jest-dom/matchers';
 import { defaultConfig } from 'antd/lib/theme/internal';
+import MockDate from 'mockdate';
+import { expect, vi } from 'vitest';
 
 defaultConfig.hashed = false;
 
-jest.mock('antd', () => {
-  const antd = jest.requireActual('antd');
-  antd.theme.defaultConfig.hashed = false;
-  return antd;
-});
+declare module 'vitest' {
+  interface Assertion<T = any>
+    extends jest.Matchers<void, T>,
+      TestingLibraryMatchers<T, void> {
+    toHaveNoViolations(): void;
+  }
+}
+
+expect.extend(matchers);
 
 process.env.TZ = 'UTC';
 
-global.React = React;
+const originConsoleErr = console.error;
 
-jest.mock('react', () => ({
-  ...jest.requireActual('react'),
-  useLayoutEffect: jest.requireActual('react').useEffect,
-}));
+// Hack off React warning to avoid too large log in CI.
+console.error = (...args) => {
+  const str = args.join('').replace(/\n/g, '');
 
-jest.setTimeout(60000);
+  if (
+    [
+      'validateDOMNesting',
+      'on an unmounted component',
+      'not wrapped in act',
+    ].every((warn) => !str.includes(warn))
+  ) {
+    originConsoleErr(...args);
+  }
+};
 
 /* eslint-disable global-require */
 if (typeof window !== 'undefined') {
+  globalThis.window.resizeTo = (width, height) => {
+    globalThis.window.innerWidth = width || globalThis.window.innerWidth;
+    globalThis.window.innerHeight = height || globalThis.window.innerHeight;
+    globalThis.window.dispatchEvent(new Event('resize'));
+  };
+  globalThis.window.scrollTo = () => {};
   // ref: https://github.com/ant-design/ant-design/issues/18774
   if (!window.matchMedia) {
-    Object.defineProperty(global.window, 'matchMedia', {
+    Object.defineProperty(globalThis.window, 'matchMedia', {
       writable: true,
       configurable: true,
-      value: jest.fn(() => ({
-        matches: false,
-        addListener: jest.fn(),
-        removeListener: jest.fn(),
-      })),
-    });
-  }
-  if (!window.matchMedia) {
-    Object.defineProperty(global.window, 'matchMedia', {
-      writable: true,
-      configurable: true,
-      value: jest.fn((query) => ({
+      value: vi.fn((query) => ({
         matches: query.includes('max-width'),
-        addListener: jest.fn(),
-        removeListener: jest.fn(),
+        addListener: vi.fn(),
+        removeListener: vi.fn(),
       })),
     });
   }
 }
 
-enableFetchMocks();
-
 Object.defineProperty(window, 'open', {
-  value: jest.fn,
+  value: vi.fn,
 });
 
 const crypto = require('crypto');
@@ -114,11 +117,6 @@ MockDate.set(1479828164000);
 
 Math.random = () => 0.8404419276253765;
 
-//@ts-ignore
-fetch.mockResponse(async () => {
-  return { body: JSON.stringify(tableData) };
-});
-
 // @ts-ignore-next-line
 global.Worker = class {
   constructor(stringUrl: string) {
@@ -139,3 +137,6 @@ if (process.env.TEST_LOG === 'none') {
   console.warn = () => {};
   console.log = () => {};
 }
+// with jest-canvas-mock
+(globalThis as any).jest = vi;
+await import('jest-canvas-mock');

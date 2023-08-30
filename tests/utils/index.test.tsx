@@ -69,7 +69,7 @@ describe('utils', () => {
   });
 
   it('📅 useDebounceValue', async () => {
-    jest.useFakeTimers();
+    vi.useFakeTimers();
     const App = (props: { deps: string[] }) => {
       const value = useDebounceValue(props.deps?.[0], 200, props.deps);
 
@@ -93,7 +93,7 @@ describe('utils', () => {
     await html.findByText('string');
 
     await act(() => {
-      return jest.runOnlyPendingTimers();
+      return vi.runOnlyPendingTimers();
     });
 
     await waitFor(() => {
@@ -128,7 +128,7 @@ describe('utils', () => {
   });
 
   it('📅 useDebounceValue without deps', async () => {
-    jest.useFakeTimers();
+    vi.useFakeTimers();
 
     const App = (props: { deps: string[] }) => {
       const [, forceUpdate] = useState([]);
@@ -158,14 +158,14 @@ describe('utils', () => {
     expect(html.baseElement?.textContent).toEqual('name');
 
     await act(() => {
-      return jest.runAllTimers();
+      return vi.runAllTimers();
     });
 
     await waitFor(() => {
       expect(html.baseElement?.textContent).toEqual('string');
     });
 
-    jest.useRealTimers();
+    vi.useRealTimers();
   });
 
   it('📅 useDebounceFn', async () => {
@@ -175,8 +175,8 @@ describe('utils', () => {
       },
     });
 
-    jest.useFakeTimers();
-    const fn = jest.fn();
+    vi.useFakeTimers();
+    const fn = vi.fn();
     const App = ({ wait }: { wait?: number }) => {
       const fetchData = useDebounceFn(async () => fn(), wait);
       useEffect(() => {
@@ -213,7 +213,7 @@ describe('utils', () => {
     });
 
     await act(() => {
-      return jest.runOnlyPendingTimers();
+      return vi.runOnlyPendingTimers();
     });
 
     act(() => {
@@ -221,7 +221,7 @@ describe('utils', () => {
     });
 
     await act(() => {
-      return jest.runOnlyPendingTimers();
+      return vi.runOnlyPendingTimers();
     });
 
     await html.findByText('test');
@@ -253,14 +253,14 @@ describe('utils', () => {
     });
 
     await act(() => {
-      return jest.runOnlyPendingTimers();
+      return vi.runOnlyPendingTimers();
     });
 
     html.unmount();
 
     expect(fn).toBeCalledTimes(7);
 
-    jest.useRealTimers();
+    vi.useRealTimers();
   });
 
   it('📅 useDebounceFn execution has errors', async () => {
@@ -270,10 +270,10 @@ describe('utils', () => {
       },
     });
 
-    jest.useFakeTimers();
+    vi.useFakeTimers();
 
     const error = new Error('debounce error');
-    const catchFn = jest.fn();
+    const catchFn = vi.fn();
     const App = ({ wait }: { wait?: number }) => {
       const fetchData = useDebounceFn(async () => {
         throw error;
@@ -292,7 +292,7 @@ describe('utils', () => {
       expect(catchFn).toBeCalledWith(error);
     });
 
-    jest.useRealTimers();
+    vi.useRealTimers();
   });
 
   it('📅 conversionSubmitValue nil', async () => {
@@ -1092,7 +1092,7 @@ describe('utils', () => {
   });
 
   it('🪓 nanoid', () => {
-    window.crypto.randomUUID = jest.fn(() => '1234567890abcdef');
+    window.crypto.randomUUID = vi.fn(() => '1234567890abcdef');
 
     const id = nanoid();
 

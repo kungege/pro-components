@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Field Status 🥩 Default render 1`] = `
+exports[`Field Status > 🥩 Default render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-default"
@@ -17,10 +17,10 @@ exports[`Field Status 🥩 Default render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 Error render 1`] = `
+exports[`Field Status > 🥩 Error render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-error"
@@ -34,10 +34,10 @@ exports[`Field Status 🥩 Error render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 Processing render 1`] = `
+exports[`Field Status > 🥩 Processing render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-processing"
@@ -51,10 +51,10 @@ exports[`Field Status 🥩 Processing render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 Success render 1`] = `
+exports[`Field Status > 🥩 Success render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-success"
@@ -68,10 +68,10 @@ exports[`Field Status 🥩 Success render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 Warning render 1`] = `
+exports[`Field Status > 🥩 Warning render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-warning"
@@ -85,10 +85,10 @@ exports[`Field Status 🥩 Warning render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 default render 1`] = `
+exports[`Field Status > 🥩 default render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-default"
@@ -102,10 +102,10 @@ exports[`Field Status 🥩 default render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 error render 1`] = `
+exports[`Field Status > 🥩 error render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-error"
@@ -119,10 +119,10 @@ exports[`Field Status 🥩 error render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 processing render 1`] = `
+exports[`Field Status > 🥩 processing render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-processing"
@@ -136,10 +136,10 @@ exports[`Field Status 🥩 processing render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 red color render 1`] = `
+exports[`Field Status > 🥩 red color render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-color-red"
@@ -153,10 +153,10 @@ exports[`Field Status 🥩 red color render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 success render 1`] = `
+exports[`Field Status > 🥩 success render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-success"
@@ -170,10 +170,10 @@ exports[`Field Status 🥩 success render 1`] = `
 </div>
 `;
 
-exports[`Field Status 🥩 warning render 1`] = `
+exports[`Field Status > 🥩 warning render 1`] = `
 <div>
   <span
-    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
   >
     <span
       class="ant-badge-status-dot ant-badge-status-warning"

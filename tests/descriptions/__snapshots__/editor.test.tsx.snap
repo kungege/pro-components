@@ -1,6 +1,6 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Descriptions 📝 columns support editable test 1`] = `
+exports[`Descriptions > 📝 columns support editable test 1`] = `
 <DocumentFragment>
   <div
     class="ant-descriptions ant-pro-descriptions"
@@ -139,9 +139,13 @@ exports[`Descriptions 📝 columns support editable test 1`] = `
                 </span>
               </div>
             </td>
+          </tr>
+          <tr
+            class="ant-descriptions-row"
+          >
             <td
               class="ant-descriptions-item"
-              colspan="2"
+              colspan="1"
             >
               <div
                 class="ant-descriptions-item-container"
@@ -162,7 +166,7 @@ exports[`Descriptions 📝 columns support editable test 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Descriptions 📝 renderFormItem run defaultRender 1`] = `
+exports[`Descriptions > 📝 renderFormItem run defaultRender 1`] = `
 <DocumentFragment>
   <div
     class="ant-descriptions ant-pro-descriptions"
@@ -177,7 +181,7 @@ exports[`Descriptions 📝 renderFormItem run defaultRender 1`] = `
           >
             <td
               class="ant-descriptions-item"
-              colspan="3"
+              colspan="1"
             >
               <div
                 class="ant-descriptions-item-container"

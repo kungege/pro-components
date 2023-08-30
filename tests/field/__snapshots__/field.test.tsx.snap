@@ -1,9 +1,9 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`Field 🐴 base use 1`] = `
+exports[`Field > 🐴 base use 1`] = `
 <DocumentFragment>
   <div
-    class="ant-input-number"
+    class="ant-input-number css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-input-number-handler-wrap"
@@ -79,10 +79,10 @@ exports[`Field 🐴 base use 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 edit and no plain 1`] = `
+exports[`Field > 🐴 edit and no plain 1`] = `
 <DocumentFragment>
   <div
-    class="ant-descriptions"
+    class="ant-descriptions css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-descriptions-view"
@@ -108,10 +108,10 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-input-affix-wrapper"
+                    class="ant-input-affix-wrapper css-dev-only-do-not-override-17a39f8"
                   >
                     <input
-                      class="ant-input"
+                      class="ant-input css-dev-only-do-not-override-17a39f8"
                       placeholder="请输入"
                       type="text"
                       value=""
@@ -166,7 +166,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-avatar ant-avatar-circle ant-avatar-image"
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-17a39f8"
                     style="width: 22px; height: 22px; line-height: 22px; font-size: 18px;"
                   >
                     <img
@@ -215,7 +215,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-range ant-picker-borderless"
+                    class="ant-picker ant-picker-range ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input ant-picker-input-active"
@@ -346,7 +346,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-input-number"
+                    class="ant-input-number css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-input-number-handler-wrap"
@@ -442,7 +442,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-input-number"
+                    class="ant-input-number css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-input-number-handler-wrap"
@@ -534,7 +534,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-select ant-pro-filed-search-select ant-select-single ant-select-allow-clear ant-select-show-arrow"
+                    class="ant-select ant-pro-filed-search-select css-dev-only-do-not-override-17a39f8 ant-select-single ant-select-allow-clear ant-select-show-arrow"
                     style="min-width: 100px;"
                   >
                     <div
@@ -617,7 +617,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-select ant-pro-filed-search-select ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-loading"
+                    class="ant-select ant-pro-filed-search-select css-dev-only-do-not-override-17a39f8 ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-loading"
                     style="min-width: 100px;"
                   >
                     <div
@@ -696,7 +696,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-input-number"
+                    class="ant-input-number css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-input-number-handler-wrap"
@@ -792,7 +792,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker"
+                    class="ant-picker css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input"
@@ -849,7 +849,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker"
+                    class="ant-picker css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input"
@@ -910,7 +910,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-range ant-picker-borderless"
+                    class="ant-picker ant-picker-range ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input ant-picker-input-active"
@@ -1009,7 +1009,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-range ant-picker-borderless"
+                    class="ant-picker ant-picker-range ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input ant-picker-input-active"
@@ -1112,7 +1112,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker"
+                    class="ant-picker css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input"
@@ -1172,10 +1172,10 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-input-affix-wrapper ant-input-password"
+                    class="ant-input-affix-wrapper ant-input-password css-dev-only-do-not-override-17a39f8"
                   >
                     <input
-                      class="ant-input"
+                      class="ant-input css-dev-only-do-not-override-17a39f8"
                       placeholder="请输入"
                       type="password"
                       value=""
@@ -1231,7 +1231,7 @@ exports[`Field 🐴 edit and no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <textarea
-                    class="ant-input"
+                    class="ant-input css-dev-only-do-not-override-17a39f8"
                     rows="5"
                   >
                     yarn run v1.22.0
@@ -1258,7 +1258,7 @@ Done in 9.70s.
                   class="ant-descriptions-item-content"
                 >
                   <textarea
-                    class="ant-input"
+                    class="ant-input css-dev-only-do-not-override-17a39f8"
                     rows="5"
                   >
                     {
@@ -1295,10 +1295,10 @@ Done in 9.70s.
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 edit and plain=true 1`] = `
+exports[`Field > 🐴 edit and plain=true 1`] = `
 <DocumentFragment>
   <div
-    class="ant-descriptions"
+    class="ant-descriptions css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-descriptions-view"
@@ -1324,10 +1324,10 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-input-affix-wrapper"
+                    class="ant-input-affix-wrapper css-dev-only-do-not-override-17a39f8"
                   >
                     <input
-                      class="ant-input"
+                      class="ant-input css-dev-only-do-not-override-17a39f8"
                       placeholder="请输入"
                       type="text"
                       value=""
@@ -1382,7 +1382,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-avatar ant-avatar-circle ant-avatar-image"
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-17a39f8"
                     style="width: 22px; height: 22px; line-height: 22px; font-size: 18px;"
                   >
                     <img
@@ -1431,7 +1431,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-range ant-picker-borderless"
+                    class="ant-picker ant-picker-range ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input ant-picker-input-active"
@@ -1562,7 +1562,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-input-number"
+                    class="ant-input-number css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-input-number-handler-wrap"
@@ -1658,7 +1658,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-input-number"
+                    class="ant-input-number css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-input-number-handler-wrap"
@@ -1750,7 +1750,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-select ant-pro-filed-search-select ant-select-single ant-select-allow-clear ant-select-show-arrow"
+                    class="ant-select ant-pro-filed-search-select css-dev-only-do-not-override-17a39f8 ant-select-single ant-select-allow-clear ant-select-show-arrow"
                     style="min-width: 100px;"
                   >
                     <div
@@ -1833,7 +1833,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-select ant-pro-filed-search-select ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-loading"
+                    class="ant-select ant-pro-filed-search-select css-dev-only-do-not-override-17a39f8 ant-select-single ant-select-allow-clear ant-select-show-arrow ant-select-loading"
                     style="min-width: 100px;"
                   >
                     <div
@@ -1912,7 +1912,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-input-number"
+                    class="ant-input-number css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-input-number-handler-wrap"
@@ -2008,7 +2008,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-borderless"
+                    class="ant-picker ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input"
@@ -2065,7 +2065,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-borderless"
+                    class="ant-picker ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input"
@@ -2126,7 +2126,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-range ant-picker-borderless"
+                    class="ant-picker ant-picker-range ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input ant-picker-input-active"
@@ -2225,7 +2225,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-range ant-picker-borderless"
+                    class="ant-picker ant-picker-range ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input ant-picker-input-active"
@@ -2328,7 +2328,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-picker ant-picker-borderless"
+                    class="ant-picker ant-picker-borderless css-dev-only-do-not-override-17a39f8"
                   >
                     <div
                       class="ant-picker-input"
@@ -2388,10 +2388,10 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-input-affix-wrapper ant-input-password"
+                    class="ant-input-affix-wrapper ant-input-password css-dev-only-do-not-override-17a39f8"
                   >
                     <input
-                      class="ant-input"
+                      class="ant-input css-dev-only-do-not-override-17a39f8"
                       placeholder="请输入"
                       type="password"
                       value=""
@@ -2447,7 +2447,7 @@ exports[`Field 🐴 edit and plain=true 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <input
-                    class="ant-input"
+                    class="ant-input css-dev-only-do-not-override-17a39f8"
                     type="text"
                     value="
 yarn run v1.22.0
@@ -2474,28 +2474,28 @@ Done in 9.70s.
                   class="ant-descriptions-item-content"
                 >
                   <input
-                    class="ant-input"
+                    class="ant-input css-dev-only-do-not-override-17a39f8"
                     type="text"
                     value="{
-  "compilerOptions": {
-    "target": "esnext",
-    "moduleResolution": "node",
-    "jsx": "preserve",
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noImplicitReturns": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "declaration": true,
-    "skipLibCheck": true
+  \\"compilerOptions\\": {
+    \\"target\\": \\"esnext\\",
+    \\"moduleResolution\\": \\"node\\",
+    \\"jsx\\": \\"preserve\\",
+    \\"esModuleInterop\\": true,
+    \\"experimentalDecorators\\": true,
+    \\"strict\\": true,
+    \\"forceConsistentCasingInFileNames\\": true,
+    \\"noImplicitReturns\\": true,
+    \\"suppressImplicitAnyIndexErrors\\": true,
+    \\"declaration\\": true,
+    \\"skipLibCheck\\": true
   },
-  "include": [
-    "**/src",
-    "**/docs",
-    "scripts",
-    "**/demo",
-    ".eslintrc.js"
+  \\"include\\": [
+    \\"**/src\\",
+    \\"**/docs\\",
+    \\"scripts\\",
+    \\"**/demo\\",
+    \\".eslintrc.js\\"
   ]
 }"
                   />
@@ -2510,10 +2510,10 @@ Done in 9.70s.
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 1`] = `
+exports[`Field > 🐴 money valueType is Object 1`] = `
 <DocumentFragment>
   <div
-    class="ant-input-number"
+    class="ant-input-number css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-input-number-handler-wrap"
@@ -2589,7 +2589,7 @@ exports[`Field 🐴 money valueType is Object 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 2`] = `
+exports[`Field > 🐴 money valueType is Object 2`] = `
 <DocumentFragment>
   <span>
     100.00
@@ -2597,7 +2597,7 @@ exports[`Field 🐴 money valueType is Object 2`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 3`] = `
+exports[`Field > 🐴 money valueType is Object 3`] = `
 <DocumentFragment>
   <span>
     100
@@ -2605,10 +2605,10 @@ exports[`Field 🐴 money valueType is Object 3`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 4`] = `
+exports[`Field > 🐴 money valueType is Object 4`] = `
 <DocumentFragment>
   <div
-    class="ant-input-number"
+    class="ant-input-number css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-input-number-handler-wrap"
@@ -2684,7 +2684,7 @@ exports[`Field 🐴 money valueType is Object 4`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 5`] = `
+exports[`Field > 🐴 money valueType is Object 5`] = `
 <DocumentFragment>
   <span>
     100.00
@@ -2692,7 +2692,7 @@ exports[`Field 🐴 money valueType is Object 5`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 6`] = `
+exports[`Field > 🐴 money valueType is Object 6`] = `
 <DocumentFragment>
   <span>
     100
@@ -2700,10 +2700,10 @@ exports[`Field 🐴 money valueType is Object 6`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 7`] = `
+exports[`Field > 🐴 money valueType is Object 7`] = `
 <DocumentFragment>
   <div
-    class="ant-input-number"
+    class="ant-input-number css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-input-number-handler-wrap"
@@ -2779,7 +2779,7 @@ exports[`Field 🐴 money valueType is Object 7`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 8`] = `
+exports[`Field > 🐴 money valueType is Object 8`] = `
 <DocumentFragment>
   <span>
     100.00
@@ -2787,7 +2787,7 @@ exports[`Field 🐴 money valueType is Object 8`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 9`] = `
+exports[`Field > 🐴 money valueType is Object 9`] = `
 <DocumentFragment>
   <span>
     100
@@ -2795,10 +2795,10 @@ exports[`Field 🐴 money valueType is Object 9`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 10`] = `
+exports[`Field > 🐴 money valueType is Object 10`] = `
 <DocumentFragment>
   <div
-    class="ant-input-number"
+    class="ant-input-number css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-input-number-handler-wrap"
@@ -2874,7 +2874,7 @@ exports[`Field 🐴 money valueType is Object 10`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 11`] = `
+exports[`Field > 🐴 money valueType is Object 11`] = `
 <DocumentFragment>
   <span>
     100.00
@@ -2882,7 +2882,7 @@ exports[`Field 🐴 money valueType is Object 11`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 money valueType is Object 12`] = `
+exports[`Field > 🐴 money valueType is Object 12`] = `
 <DocumentFragment>
   <span>
     100
@@ -2890,14 +2890,14 @@ exports[`Field 🐴 money valueType is Object 12`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 options support dom list 1`] = `
+exports[`Field > 🐴 options support dom list 1`] = `
 <DocumentFragment>
   <div
     class="ant-pro-field-option"
     style="display: flex; gap: 16px; align-items: center;"
   >
     <button
-      class="ant-btn ant-btn-default"
+      class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default"
       style="flex: 1;"
       type="button"
     >
@@ -2906,7 +2906,7 @@ exports[`Field 🐴 options support dom list 1`] = `
       </span>
     </button>
     <button
-      class="ant-btn ant-btn-default"
+      class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default"
       style="flex: 1;"
       type="button"
     >
@@ -2918,7 +2918,7 @@ exports[`Field 🐴 options support dom list 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 options support dom text 1`] = `
+exports[`Field > 🐴 options support dom text 1`] = `
 <DocumentFragment>
   <div
     class="ant-pro-field-option"
@@ -2926,7 +2926,7 @@ exports[`Field 🐴 options support dom text 1`] = `
   >
     新建
     <button
-      class="ant-btn ant-btn-default"
+      class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default"
       style="flex: 1;"
       type="button"
     >
@@ -2938,18 +2938,18 @@ exports[`Field 🐴 options support dom text 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 options support empty dom 1`] = `<DocumentFragment />`;
+exports[`Field > 🐴 options support empty dom 1`] = `<DocumentFragment />`;
 
-exports[`Field 🐴 options support no text 1`] = `<DocumentFragment />`;
+exports[`Field > 🐴 options support no text 1`] = `<DocumentFragment />`;
 
-exports[`Field 🐴 options support one dom 1`] = `
+exports[`Field > 🐴 options support one dom 1`] = `
 <DocumentFragment>
   <div
     class="ant-pro-field-option"
     style="display: flex; gap: 16px; align-items: center;"
   >
     <button
-      class="ant-btn ant-btn-default"
+      class="ant-btn css-dev-only-do-not-override-17a39f8 ant-btn-default"
       style="flex: 1;"
       type="button"
     >
@@ -2961,7 +2961,7 @@ exports[`Field 🐴 options support one dom 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 percent support unit string 1`] = `
+exports[`Field > 🐴 percent support unit string 1`] = `
 <DocumentFragment>
   <span>
     + 100.00%
@@ -2969,10 +2969,10 @@ exports[`Field 🐴 percent support unit string 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 percent valueType is Object 1`] = `
+exports[`Field > 🐴 percent valueType is Object 1`] = `
 <DocumentFragment>
   <div
-    class="ant-input-number"
+    class="ant-input-number css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-input-number-handler-wrap"
@@ -3048,7 +3048,7 @@ exports[`Field 🐴 percent valueType is Object 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 percent=0 1`] = `
+exports[`Field > 🐴 percent=0 1`] = `
 <DocumentFragment>
   <span
     style="color: rgb(89, 89, 89);"
@@ -3058,11 +3058,11 @@ exports[`Field 🐴 percent=0 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 progress support no number 1`] = `
+exports[`Field > 🐴 progress support no number 1`] = `
 <DocumentFragment>
   <div
     aria-valuenow="NaN"
-    class="ant-progress ant-progress-status-normal ant-progress-line ant-progress-show-info ant-progress-small"
+    class="ant-progress ant-progress-status-normal ant-progress-line ant-progress-show-info ant-progress-small css-dev-only-do-not-override-17a39f8"
     role="progressbar"
     style="min-width: 100px; max-width: 320px;"
   >
@@ -3089,11 +3089,11 @@ exports[`Field 🐴 progress support no number 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 progress support string number 1`] = `
+exports[`Field > 🐴 progress support string number 1`] = `
 <DocumentFragment>
   <div
     aria-valuenow="12"
-    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-show-info ant-progress-small"
+    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-show-info ant-progress-small css-dev-only-do-not-override-17a39f8"
     role="progressbar"
     style="min-width: 100px; max-width: 320px;"
   >
@@ -3120,10 +3120,10 @@ exports[`Field 🐴 progress support string number 1`] = `
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 read and plain 1`] = `
+exports[`Field > 🐴 read and plain 1`] = `
 <DocumentFragment>
   <div
-    class="ant-descriptions"
+    class="ant-descriptions css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-descriptions-view"
@@ -3168,7 +3168,7 @@ exports[`Field 🐴 read and plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-avatar ant-avatar-circle ant-avatar-image"
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-17a39f8"
                     style="width: 22px; height: 22px; line-height: 22px; font-size: 18px;"
                   >
                     <img
@@ -3321,7 +3321,7 @@ exports[`Field 🐴 read and plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                   >
                     <span
                       class="ant-badge-status-dot ant-badge-status-error"
@@ -3375,7 +3375,7 @@ exports[`Field 🐴 read and plain 1`] = `
                 >
                   <div
                     aria-valuenow="40"
-                    class="ant-progress ant-progress-status-active ant-progress-steps ant-progress-show-info ant-progress-small"
+                    class="ant-progress ant-progress-status-active ant-progress-steps ant-progress-show-info ant-progress-small css-dev-only-do-not-override-17a39f8"
                     role="progressbar"
                     style="min-width: 100px; max-width: 320px;"
                   >
@@ -3572,7 +3572,7 @@ exports[`Field 🐴 read and plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-space ant-space-horizontal ant-space-align-center"
+                    class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-center"
                   >
                     <div
                       class="ant-space-item"
@@ -3701,10 +3701,10 @@ Done in 9.70s.
 </DocumentFragment>
 `;
 
-exports[`Field 🐴 read ant no plain 1`] = `
+exports[`Field > 🐴 read ant no plain 1`] = `
 <DocumentFragment>
   <div
-    class="ant-descriptions"
+    class="ant-descriptions css-dev-only-do-not-override-17a39f8"
   >
     <div
       class="ant-descriptions-view"
@@ -3749,7 +3749,7 @@ exports[`Field 🐴 read ant no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-avatar ant-avatar-circle ant-avatar-image"
+                    class="ant-avatar ant-avatar-circle ant-avatar-image css-dev-only-do-not-override-17a39f8"
                     style="width: 22px; height: 22px; line-height: 22px; font-size: 18px;"
                   >
                     <img
@@ -3902,7 +3902,7 @@ exports[`Field 🐴 read ant no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <span
-                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper"
+                    class="ant-badge ant-badge-status ant-badge-not-a-wrapper css-dev-only-do-not-override-17a39f8"
                   >
                     <span
                       class="ant-badge-status-dot ant-badge-status-error"
@@ -3956,7 +3956,7 @@ exports[`Field 🐴 read ant no plain 1`] = `
                 >
                   <div
                     aria-valuenow="40"
-                    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-show-info ant-progress-small"
+                    class="ant-progress ant-progress-status-active ant-progress-line ant-progress-show-info ant-progress-small css-dev-only-do-not-override-17a39f8"
                     role="progressbar"
                     style="min-width: 100px; max-width: 320px;"
                   >
@@ -4122,7 +4122,7 @@ exports[`Field 🐴 read ant no plain 1`] = `
                   class="ant-descriptions-item-content"
                 >
                   <div
-                    class="ant-space ant-space-horizontal ant-space-align-center"
+                    class="ant-space css-dev-only-do-not-override-17a39f8 ant-space-horizontal ant-space-align-center"
                   >
                     <div
                       class="ant-space-item"
